@@ -74,6 +74,7 @@ span{
 label {
   font-family: "Poppins", "Roboto" ;
   color: #012362;
+  
 }
 
 h1{
@@ -204,12 +205,37 @@ section{
       
       background-image: url("./school-removebg-preview.png"), linear-gradient(20deg, rgb(1, 35, 98) 38%, rgb(238, 166, 9) 10%, rgba(255,255,255,1) 100%);;
       background-repeat: no-repeat;
-      background-position: left bottom;
-      background-attachment: fixed;
+      background-position:  bottom center;
+     background-attachment: fixed;
     }
 
     footer{
       position: sticky;
       margin-top: 350px;
     }
+    
+    span{
+      margin-left: 10%;
+      flex-wrap: wrap;
+      overflow-wrap: break-word;
+    }
+    table{
+      margin-left: 30%;
+      margin-right: 30%;
+      width: 40%
+      
+
+    }
+    td{
+      padding: 5%;
+    }
+
+    .title, .numofpages, .publisher{
+      background-color: #f29f05;
+    }
+
+   
+}
+@media (hover: none) and (pointer: fine) {
+ 
 }
