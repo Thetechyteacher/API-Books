@@ -3,9 +3,12 @@ body{
     font-family: 'Poppins', 'Roboto', sans-serif;
     margin-bottom: 0%;
     min-height:100vh;
+    max-height: 100vw;
     background: rgb(0,0,0);
-    background-image: url("./school-removebg-preview.png"), linear-gradient(0deg, rgb(238, 166, 9) 10%, rgba(255,255,255,1) 100%);;
+    background-image: url("./school-removebg-preview.png"), linear-gradient(20deg, rgb(1, 35, 98) 30%, rgb(238, 166, 9) 10%, rgba(255,255,255,1) 100%);;
     background-repeat: no-repeat;
+    background-position: left bottom;
+    
     
 }
 
@@ -38,6 +41,7 @@ input{
   border-radius:24px;
   box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
 font-size: 1.2rem;
+
   
 }
 
@@ -65,6 +69,11 @@ span{
     align-items: center;
     
 
+}
+
+label {
+  font-family: "Poppins", "Roboto" ;
+  color: #012362;
 }
 
 h1{
@@ -109,7 +118,7 @@ table{
   border-style: none;
   box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
   box-sizing: border-box;
-  color: #f29f05;
+  color: #012362;
   cursor: pointer;
   display: inline-flex;
   fill: currentcolor;
@@ -137,7 +146,7 @@ table{
 
 .button-17:hover {
   background: #f29f05;
-  color: #edf0f6;
+  color: #012362;
 }
 
 .button-17:active {
@@ -191,7 +200,10 @@ section{
 
 @media only screen and (max-width: 1200px) {
    
-    .button-17, table, td, th{
-        color: #012362;
+    body {
+      background: rgb(0,0,0);
+      background-image: url("./school-removebg-preview.png"), linear-gradient(20deg, rgb(1, 35, 98) 40%, rgb(238, 166, 9) 10%, rgba(255,255,255,1) 100%);;
+      background-repeat: no-repeat;
+      background-position: left bottom;
     }
 }

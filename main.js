@@ -175,17 +175,43 @@ function cleanPage() {
   publishers.innerHTML = "";
 }
 
+ //function addDetails() {
+   //const div = document.querySelector(".addDetailsContainer");
+  // const inputDate = document.createElement("input");
+   //inputDate.setAttribute("type", "date");
+  // inputDate.className = "inputDate";
+  // div.appendChild(inputDate);
+  //const inputName = document.createElement("input");
+   //inputName.setAttribute("type", "text");
+   //inputName.className = "inputName";
+   //div.appendChild(inputName);
+ //}
+
  function addDetails() {
-   const div = document.querySelector(".addDetailsContainer");
-   const inputDate = document.createElement("input");
-   inputDate.setAttribute("type", "date");
-   inputDate.className = "inputDate";
-   div.appendChild(inputDate);
+  const div = document.querySelector(".addDetailsContainer");
+
+  const inputDate = document.createElement("input");
+  inputDate.setAttribute("type", "date");
+  inputDate.className = "inputDate";
+  inputDate.id = "dateInput"; // set id for input
+
+  const labelDate = document.createElement("label");
+  labelDate.setAttribute("for", "dateInput"); // set for attribute to match input id
+  labelDate.textContent = "Enter Date:"; // set label text
+  div.appendChild(labelDate);
+  div.appendChild(inputDate);
+
   const inputName = document.createElement("input");
-   inputName.setAttribute("type", "text");
-   inputName.className = "inputName";
-   div.appendChild(inputName);
- }
+  inputName.setAttribute("type", "text");
+  inputName.className = "inputName";
+  inputName.id = "nameInput"; // set id for input
+
+  const labelName = document.createElement("label");
+  labelName.setAttribute("for", "nameInput"); // set for attribute to match input id
+  labelName.textContent = "Enter Name:"; // set label text
+  div.appendChild(labelName);
+  div.appendChild(inputName);
+}
 
   
 
@@ -274,7 +300,11 @@ function getBooksFromLocalStorage() {
    const confirmed=  confirm("This will delete the data permanently and it will not be possible to retrieve again")
     if (confirmed) {
       localStorage.clear()
-      renderDetailsTable([]); 
+      renderDetailsTable([])
+      const inputDate = document.querySelector(".inputDate");
+      const inputName = document.querySelector(".inputName");
+      inputDate.value= ""
+      inputName.value= "";
     }}
     
 
