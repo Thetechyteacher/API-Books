@@ -27,9 +27,12 @@ function cleanPage() {
   let title = document.querySelector(".title");
   let numOfPages = document.querySelector(".numofpages");
   let publishers = document.querySelector(".publisher");
+  
   title.innerHTML = "";
   numOfPages.innerHTML = "";
   publishers.innerHTML = "";
+  
+     
 }
 
 

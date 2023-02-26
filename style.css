@@ -201,9 +201,15 @@ section{
 @media only screen and (max-width: 1200px) {
    
     body {
-      background: rgb(0,0,0);
-      background-image: url("./school-removebg-preview.png"), linear-gradient(20deg, rgb(1, 35, 98) 40%, rgb(238, 166, 9) 10%, rgba(255,255,255,1) 100%);;
+      
+      background-image: url("./school-removebg-preview.png"), linear-gradient(20deg, rgb(1, 35, 98) 38%, rgb(238, 166, 9) 10%, rgba(255,255,255,1) 100%);;
       background-repeat: no-repeat;
       background-position: left bottom;
+      background-attachment: fixed;
+    }
+
+    footer{
+      position: sticky;
+      margin-top: 350px;
     }
 }
