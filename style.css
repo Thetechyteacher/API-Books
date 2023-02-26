@@ -220,7 +220,8 @@ section{
       overflow-wrap: break-word;
     }
     table{
-      margin-left: 30%;
+      justify-content: center;
+      margin-left: 35%;
       margin-right: 30%;
       width: 40%
       
