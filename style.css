@@ -219,7 +219,7 @@ section{
     }
     
     span{
-      margin-left: 10%;
+      /*margin-left: 10%;*/
       flex-wrap: wrap;
       overflow-wrap: break-word;
     }
@@ -229,6 +229,8 @@ section{
       
 
     }
+
+  
     td{
       padding: 5%;
     }
