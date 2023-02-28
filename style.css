@@ -209,6 +209,10 @@ section{
      background-attachment: fixed;
     }
 
+    h2{
+      color: #f29f05;
+    }
+
     footer{
       position: sticky;
       margin-top: 350px;
@@ -221,15 +225,14 @@ section{
     }
     table{
       justify-content: center;
-      margin-left: 35%;
-      margin-right: 30%;
-      width: 40%
+      
       
 
     }
     td{
       padding: 5%;
     }
+ 
 
   
 
