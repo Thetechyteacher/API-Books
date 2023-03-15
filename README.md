@@ -5,10 +5,10 @@
 
 Link to project: https://dalesparklibrary.netlify.app
 
-Platform created to support the management of a <b> school library </b>, through the use of <em>local storage</em> it allows the user to keep track of books borrowed by who and when through the use of a ISBN code.Tech Used: HTML, CSS, Javascript and APIs - Platform created to support the management of a school library, through the use of local storage it allows the user to keep track of books borrowed by who and when through the use of a ISBN code.
+Platform created to support the management of a <b> school library </b>, through the use of <em>local storage</em> it allows the user to keep track of books borrowed by who and when through the use of a ISBN code.
 
 
-<h2>Tech used: HTML5, CSS, Javascript and Apis.</h2>
+<h2>Tech used: HTML5, CSS, Javascript and the Open library Api.</h2>
 
 My learning was focused on making a simple UX for this application with local storage, adapting to the needs of the establishment. 
 
